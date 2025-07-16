@@ -1,0 +1,22 @@
+{
+  "name": "travelia",
+  "version": "1.0.0",
+  "description": "landing page for travelia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cr1tDev/Natravelia.git"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cr1tDev/Natravelia/issues"
+  },
+  "homepage": "https://github.com/Cr1tDev/Natravelia#readme",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
