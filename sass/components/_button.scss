@@ -23,8 +23,13 @@
   }
 
   &--white {
-    background-color: #fff;
+    background-color: variables.$color-white;
     color: variables.$color-grey-dark;
+  }
+
+  &--green {
+    background-color: variables.$color-primary;
+    color: variables.$color-white;
   }
 
   &--animated {
@@ -40,20 +45,21 @@
     color: variables.$color-primary;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1px solid variables.$color-primary;
+
     padding: 3px;
     transition: all 0.2s;
   }
 
   &:hover {
-    background-color: variables.$color-primary;
-    color: variables.$color-white;
-    box-shadow: 0 1rem 2rem rgba(variables.$color-black, 0.15);
-    transform: translateY(-2px);
+    // background-color: variables.$color-primary;
+    // color: variables.$color-white;
+    // box-shadow: 0 1rem 2rem rgba(variables.$color-black, 0.15);
+    // transform: translateY(-1px);
+    border-bottom: 1px solid variables.$color-primary;
   }
 
-  &:active {
-    box-shadow: 0 1rem 1rem rgba(variables.$color-black, 0.15);
-    transform: translateY(0);
-  }
+  // &:active {
+  //   box-shadow: 0 1rem 1rem rgba(variables.$color-black, 0.15);
+  //   transform: translateY(0);
+  // }
 }
